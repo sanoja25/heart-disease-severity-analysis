@@ -1,0 +1,2 @@
+"age_mean","age_median","age_sd","age_min","age_max","trestbps_mean","trestbps_median","trestbps_sd","trestbps_min","trestbps_max","chol_mean","chol_median","chol_sd","chol_min","chol_max","thalach_mean","thalach_median","thalach_sd","thalach_min","thalach_max","oldpeak_mean","oldpeak_median","oldpeak_sd","oldpeak_min","oldpeak_max"
+54.5420875420875,56,9.04973568109676,29,77,131.693602693603,130,17.762806366599,94,200,247.350168350168,243,51.997582535139,126,564,149.599326599327,153,22.9415620613608,71,202,1.05555555555556,0.8,1.1661227818469,0,6.2

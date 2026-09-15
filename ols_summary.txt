@@ -1,0 +1,24 @@
+
+Call:
+lm(formula = target ~ age + trestbps + chol + thalach + oldpeak, 
+    data = df_clean)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.5424 -0.6860 -0.1790  0.4506  3.6225 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.8678145  0.7679243   2.432   0.0156 *  
+age          0.0011716  0.0076139   0.154   0.8778    
+trestbps     0.0044197  0.0035644   1.240   0.2160    
+chol         0.0009807  0.0011735   0.836   0.4040    
+thalach     -0.0150067  0.0029850  -5.027 8.71e-07 ***
+oldpeak      0.4118964  0.0552675   7.453 1.05e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.021 on 291 degrees of freedom
+Multiple R-squared:  0.3272,	Adjusted R-squared:  0.3156 
+F-statistic: 28.31 on 5 and 291 DF,  p-value: < 2.2e-16
+

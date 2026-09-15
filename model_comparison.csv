@@ -1,0 +1,3 @@
+"model","AIC","logLik"
+"OLS baseline",863.301024529475,-424.650512264738
+"Ordered logistic regression",671.694503338201,-326.847251669101

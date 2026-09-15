@@ -1,0 +1,21 @@
+Call:
+MASS::polr(formula = target_ordered ~ age + trestbps + chol + 
+    thalach + oldpeak, data = df_clean, Hess = TRUE, method = "logistic")
+
+Coefficients:
+             Value Std. Error t value
+age       0.009057   0.015395  0.5883
+trestbps  0.008583   0.006997  1.2268
+chol      0.002098   0.002322  0.9035
+thalach  -0.028519   0.005777 -4.9367
+oldpeak   0.671363   0.107949  6.2193
+
+Intercepts:
+    Value   Std. Error t value
+0|1 -1.2611  1.4834    -0.8502
+1|2 -0.1481  1.4784    -0.1001
+2|3  0.7872  1.4777     0.5327
+3|4  2.4593  1.4999     1.6397
+
+Residual Deviance: 653.6945 
+AIC: 671.6945 
