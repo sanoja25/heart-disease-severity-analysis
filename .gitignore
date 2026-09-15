@@ -1,0 +1,17 @@
+# R files
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Generated outputs (uncomment if you do not want to track them)
+# figures/*.png
+# results/*.csv
